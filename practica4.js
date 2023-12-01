@@ -5,11 +5,7 @@ let apiUrl = 'https://rickandmortyapi.com/api/character?page=1'
 let contador = 1
 
 const incremento = (num)=>{
-    if(contador > 1 && contador < 42){
-        contador += num
-        let Url = 'https://rickandmortyapi.com/api/character?page=' + contador
-        inicio(Url)
-    }else if(contador == 1 && num > 0){
+    if(contador > 1 && contador < 42 || contador == 1 && num > 0 || contador == 42 && num < 0){
         contador += num
         let Url = 'https://rickandmortyapi.com/api/character?page=' + contador
         inicio(Url)
