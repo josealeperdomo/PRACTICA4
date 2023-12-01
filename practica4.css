@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h1{
+    padding: 50px;
+    color: aliceblue;
+}
+
 body{
     display: flex;
     flex-direction: column;
