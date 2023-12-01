@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-h1{
-    padding: 50px;
-}
-
 body{
     display: flex;
     flex-direction: column;
@@ -16,6 +12,11 @@ body{
     align-items: center;
     background-color: black;
     color: aliceblue;
+    font-family: sans-serif;
+}
+
+h1{
+    padding: 50px;
 }
 
 div{
@@ -70,7 +71,7 @@ button:hover{
     }
 }
 
-@media (min-width:1300px){
+@media (min-width:1350px){
     div{
         display: grid;
         grid-template-columns: repeat(6,1fr);
