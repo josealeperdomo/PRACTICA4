@@ -39,7 +39,6 @@ const inicio = async (url)=>{
             imagen.src = personaje.image
             content.appendChild(parrafo);
             content.appendChild(imagen);
-            console.log(url);
     })
 }
 
